@@ -378,6 +378,9 @@ h6,
   margin: 15px 0 0 0;
   font-size: 24px;
 }
+.ht{
+  padding-inline: 2em;
+}
 
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
@@ -492,7 +495,7 @@ section {
   padding-bottom: 15px;
   margin-bottom: 15px;
   position: relative;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
   color: #355ecc;
 }
@@ -590,7 +593,7 @@ section {
   
 }
 .about .f-p-t{
-  font-size: 32px;
+  font-size: 24px;
   color: #355ecc;
   font-weight: 700;
 }
