@@ -583,7 +583,11 @@ section {
   color: #5a6570;
 }
 .about .f-p{
-  font-size: 24px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #7a6960;
+  
 }
 .about .f-p-t{
   font-size: 32px;
