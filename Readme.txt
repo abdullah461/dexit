@@ -1,1 +1,1 @@
-DexIT tech solutions
+DexIT techology solutions
