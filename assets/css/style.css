@@ -1133,6 +1133,7 @@ section {
   padding: 30px;
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 20px;
 }
 
 .contact .php-email-form .form-group {

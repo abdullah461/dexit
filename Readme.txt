@@ -1,1 +1,1 @@
-DexIT techology solutions
+Limtechy Lab techology solutions
