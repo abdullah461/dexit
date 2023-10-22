@@ -377,6 +377,7 @@ h6,
   color: #a08f86;
   margin: 15px 0 0 0;
   font-size: 24px;
+  line-height: 1.5em;
 }
 
 
@@ -431,7 +432,7 @@ h6,
 
   #hero h2 {
     font-size: 24px;
-    line-height: 1em;
+    line-height: 1.5em;
   }
 
   #hero .hero-img img {
@@ -448,7 +449,7 @@ h6,
 
 @media (max-height: 600px) {
   #hero {
-    height: 120vh;
+    height: 100vh;
   }
 }
 
@@ -663,6 +664,29 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+.btn-contact{
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin-top: 30px;
+  color: #fff;
+  background: #355ecc;
+}
+
+.btn-contact:hover{
+  color: white;
+  background-color: #5988ff;
+}
+.sb{
+  display: flex;
+  justify-content: center;
 }
 
 /*--------------------------------------------------------------
