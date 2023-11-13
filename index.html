@@ -38,13 +38,13 @@
       <div class="logo">
         <!-- <h1 class="text-light"><a href="index.html"><span>Limtechy Lab</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <a class="img-fluid scrollto" href="#hero"><img src="assets/img/logo.png" alt="limtechy lab logo" ></a>
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
           <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class=" scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#about">The Company</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Projects</a></li>
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
@@ -81,14 +81,15 @@
       <div class="row gy-4 hero">
         <div class="ht col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h1>LIMTECHY LAB</h1>
-          <h2>Delivering Digital solutions and Managed IT Services
-          For The Best Digital Experience</h2>
+          <h2>We’re a creative web development agency based in Nigeria that crafts beautiful and original websites for brands <span>who refuse to blend in.</span> </h2>
+          <!-- <h2>Delivering Digital solutions and Managed IT Services
+          For The Best Digital Experience</h2> -->
           <div>
-            <a href="#services" class="btn-get-started scrollto py-3 px-8">Get Started</a>
+            <a href="#services" class="btn-get-started scrollto">START YOUR PROJECT</a>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img">
-          <img src="assets/img/undraw_engineering_team_a7n2.svg" class="img-fluid animated" alt="">
+          <img id="bil" src="assets/img/bg1.jpg" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -96,33 +97,27 @@
   </section>
   <!-- End Hero -->
 
-
+            
   <main id="main">
 
     <!-- ======= OFFER-about Section ======= -->
     <section id="offer" class="about">
       <div class="container">
 
-        <div class="row justify-content-between">
+        <div class="item row justify-content-between">
           <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
             <img src="assets/img/undraw_processing_re_tbdu.svg" class="img-fluid" alt="" data-aos="zoom-in">
           </div>
-          <div class="col-lg-6 pt-5 pt-lg-0">
-            <h2 data-aos="fade-up" data-aos-delay="100" class="f-p"> 
-              <strong>
-                WHAT WE OFFER
-              </strong>
-            </h2>
-            <p data-aos="fade-up" class="f-p-t">From concept
-              to execution</p>
-            
-            <p data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 pt-5 pt-lg-0 f">
+            <h2 data-aos="fade-up" data-aos-delay="100" class="f-p">From concept to execution </h2>
+            <!-- <p data-aos="fade-up" class="f-p-t"></p> -->
+            <p data-aos="fade-up" data-aos-delay="100" class="f-p-t-t">
               we collaborate closely with our clients,
               tailoring each project to their unique vision and business goals
               with a focus on delivering results-driven solutions,
               Trust us to bring your digital dreams to life!
             </p>
-            <a href="#" class="btn-contact py-2 px-6">Learn more</a>
+            <!-- <a href="#" id="f-p-b" class="btn-contact py-2 px-6">Learn more</a> -->
 
               <!-- We provide wide range of services ranging from IT support, IT procurement, web design & development, Managed Wi-Fi Services, Cloud Management and IT Training. <br>
               <br>
@@ -152,13 +147,12 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
           <p>Check out the services we offer</p>
         </div>
 
         <div class="row">
-          <a href="">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4 class="title"><a href="it-consultancy.html">IT Consultancy</a></h4>
@@ -166,7 +160,7 @@
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4 class="title"><a href="cloud-management.html"> Cloud Management</a></h4>
@@ -174,23 +168,13 @@
             </div>
           </div>
           
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-md-4 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="400">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="web-dev.html">Software Development</a></h4>
+              <h4 class="title"><a href="web-dev.html">Web Development</a></h4>
               <p class="description">We design and develop user-friendly websites, mobile apps, and custom software applications..</p>
             </div>
           </div>
-          
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="wifi-service.html">Managed IT Services</a></h4>
-              <p class="description">We offer remotely managed IT requirements for micro, small and medium businesses.</p>
-            </div>
-          </div>
-          
-
         </div>
         <div class="sb">
           <a href="#mail" class="btn-contact py-3 px-8">Contact Us Now</a>
@@ -204,17 +188,14 @@
 
         <div class="row justify-content-between">
           <div class="col-lg-6 pt-5 pt-lg-0">
-            <h3 data-aos="fade-up">Who we are</h3>
-            <p data-aos="fade-up" data-aos-delay="100">
-              LimTechy Lab is a Startup company in Nigeria leveraging cutting edge technologies for IT business solutions.
+            <h3 data-aos="fade-up" class="f-p">Who we are</h3>
+            <p data-aos="fade-up" data-aos-delay="100" class="who-we-are">
               <br>
-              <br>
-              We are a Team of progressive and insightful IT Enthusiast with wide skillset and collaborative workflow to translate your idea into its best digital self.
+              We are a Team of Experts with wide skillset and collaborative workflow to translate your idea into its best digital self.
               <br> Our design and development approach creates impactful and immersive digital experiences that bring you a return on creativity, <br> Think of us as your technology partner for ongoing business success.
             </p>
-            <!-- <div class="sb"> -->
-              <a href="#" class="btn-contact py-2 px-6">Learn more</a>
-            <!-- </div> -->
+            <a href="#" id="f-p-b" class="btn-contact py-2 px-6">Learn more</a>
+
             
           </div>
           <div class="col-lg-5 d-flex align-items-center justify-content-center about-img">
@@ -573,7 +554,6 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact Us</h2>
           <p>Contact us to the get started</p>
         </div>
 
@@ -668,8 +648,8 @@
               Abuja, Nigeria <br><br>
               <strong>Phone:</strong> +234 903771 5211<br>
               <strong>Phone:</strong> +234 908199 7316<br>
-              <strong>Phone:</strong> +234 810523 1803<br>
-              <strong>Email:</strong> info@LimtechyLab.com.ng<br>
+              <strong>Email:</strong> dexit@gmail.com<br>
+              <strong>Email:</strong> info@Dexit.com.ng<br>
             </p>
           </div>
 
@@ -689,7 +669,7 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Cloud Management</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Website Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Managed IT service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Search engine optimisation</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">IT Procurement</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Custom software developmet</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Hire Us</a></li>
