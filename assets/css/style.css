@@ -447,8 +447,8 @@ h6,
 
 @media (max-width: 768px) {
   #hero{
-    height: calc(135vh - 72px);
-    padding-top: 150px;
+    height: calc(120vh - 72px);
+    padding-top: 100px;
   }
   #hero h1 {
     font-size: 48px;
