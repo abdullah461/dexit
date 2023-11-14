@@ -421,7 +421,8 @@ h6,
 
 @media (max-width: 991px) {
   #hero {
-    height: calc(100vh - 72px);
+    height: calc(110vh - 72px);
+    padding-top: 150px;
   }
 
   #hero .animated {
@@ -430,7 +431,9 @@ h6,
 
   #hero .hero-img {
     text-align: center;
+    
   }
+ 
 
   #hero .hero-img img {
     width: 50%;
@@ -443,6 +446,10 @@ h6,
 }
 
 @media (max-width: 768px) {
+  #hero{
+    height: calc(135vh - 72px);
+    padding-top: 150px;
+  }
   #hero h1 {
     font-size: 48px;
     line-height: 1em;
@@ -451,6 +458,7 @@ h6,
   #hero h2 {
     font-size: 24px;
     line-height: 1.5em;
+    
   }
 
   #hero .hero-img img {
@@ -470,7 +478,11 @@ h6,
     height: 100vh;
   }
 }
-
+@media (max-height: 375px){
+  .hero{
+    margin: 0 10px;
+  }
+}
 @keyframes up-down {
   0% {
     transform: translateY(10px);
