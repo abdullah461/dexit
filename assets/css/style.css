@@ -253,7 +253,7 @@ h6,
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #7a6960;
+  color: white;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -282,7 +282,7 @@ h6,
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(78, 64, 57, 0.9);
+  background: rgba(14, 4, 0, 0.9);
   transition: 0.3s;
 }
 
@@ -309,8 +309,8 @@ h6,
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #7a6960;
+  font-size: 24px;
+  color: #03045e;
 }
 
 .navbar-mobile a:hover,
