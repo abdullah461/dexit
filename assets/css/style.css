@@ -518,7 +518,7 @@ section {
   line-height: 1px;
   margin-bottom: 15px;
   /* color: #c2b7b1; */
-  color: #7a6960;
+  color: #03045e;
 }
 
 .section-title p {
@@ -668,7 +668,16 @@ border-radius: 20px;
     max-width: 90%;
   }
 }
+@media (max-width: 575px) {
+  .about{
+  height: 130vh;
+  /* gap: 20px; */
+  }
+  .about .f-p{
+  font-size: 42px;
+  }
 
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
