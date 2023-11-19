@@ -110,15 +110,6 @@
     }
   }, true)
 
-
-  /* contact us toggle*/
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
-  //contact us toggle end
-
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
